@@ -10,7 +10,7 @@
                     {!! Form::open(array('class' => 'form-horizontal form-material')) !!}
 
                         <a href="javascript:void(0)" class="text-center db">
-                            <img src="{{ asset('images/lily-logo.png')}}" alt="Home" width="100px" />
+                            <img src="{{ asset('images/images.png')}}" alt="Home" width="100px" />
                             <h3 class=" text-left m-t-40">Login</h3>
                         </a>                          
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
