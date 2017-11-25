@@ -7,8 +7,8 @@ This application is created by Deepak Kumar. This is a simple tailor shop manage
 ##### Language : PHP 5.7
 
 #Screenshot
-<img src="public/assets/images/image1.png">
-<img src="public/assets/images/image2.png">
+<img src="public/images/image1.png">
+<img src="public/images/image2.png">
 
 ## Install
 - Type this line:
