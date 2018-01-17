@@ -15,22 +15,22 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <!-- DataTables -->
-        <link href="{{ asset('css/plugins/datatables/jquery.dataTables.min.css') }}" rel="stylesheet" type="text/css"/>
-        <link href="{{ asset('css/plugins/datatables/buttons.bootstrap.min.css') }}" rel="stylesheet" type="text/css"/>
-        <link href="{{ asset('css/plugins/datatables/responsive.bootstrap.min.css') }}" rel="stylesheet" type="text/css"/>
-        <link href="{{ asset('css/plugins/datatables/dataTables.bootstrap.min.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ URL::asset('css/plugins/datatables/jquery.dataTables.min.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ URL::asset('css/plugins/datatables/buttons.bootstrap.min.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ URL::asset('css/plugins/datatables/responsive.bootstrap.min.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ URL::asset('css/plugins/datatables/dataTables.bootstrap.min.css') }}" rel="stylesheet" type="text/css"/>
 
-        <link href="{{ asset('css/plugins/toast/jquery.toast.css') }}" rel="stylesheet" type="text/css"/>
-        <link href="{{ asset('css/plugins/select2/select2.min.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ URL::asset('css/plugins/toast/jquery.toast.css') }}" rel="stylesheet" type="text/css"/>
+        <link href="{{ URL::asset('css/plugins/select2/select2.min.css') }}" rel="stylesheet" type="text/css"/>
 
         <!-- App css -->
-        <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
-        <link href="{{ asset('css/core.css') }}" rel="stylesheet">
-        <link href="{{ asset('css/components.css') }}" rel="stylesheet">      
-        <link href="{{ asset('css/icons.css') }}" rel="stylesheet" type="text/css" />
-        <link href="{{ asset('css/pages.css') }}" rel="stylesheet" type="text/css" />
-        <link href="{{ asset('css/menu.css') }}" rel="stylesheet" type="text/css" />
-        <link href="{{ asset('css/responsive.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ URL::asset('css/bootstrap.min.css') }}" rel="stylesheet">
+        <link href="{{ URL::asset('css/core.css') }}" rel="stylesheet">
+        <link href="{{ URL::asset('css/components.css') }}" rel="stylesheet">      
+        <link href="{{ URL::asset('css/icons.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ URL::asset('css/pages.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ URL::asset('css/menu.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ URL::asset('css/responsive.css') }}" rel="stylesheet" type="text/css" />
 
         <!-- HTML5 Shiv and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,7 +47,7 @@
         </script>
 
 
-        <script src="assets/js/modernizr.min.js"></script>
+        <script src="{{URL::asset('assets/js/modernizr.min.js')}}"></script>
 
     </head>
 
